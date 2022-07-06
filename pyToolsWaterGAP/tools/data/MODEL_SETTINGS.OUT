@@ -1,0 +1,188 @@
+# Model time: Mon Aug 31 21:08:38 2020
+./OUTPUT/MODEL_SETTINGS.OUT
+------------------------------------------------
+Values from file DATA.DIR
+Input data directory: /home/trautman/mnt/gm/datasets/input_routing/wghm22d_v002/input
+Output data directory: ./OUTPUT
+Climate data directory: /home/trautman/mnt/gm/datasets/climate/WFD_bc_WFDEI/WLM
+Routing data directory: /home/trautman/mnt/gm/datasets/input_routing/wghm22d_v002/routing
+Water use data directory: /home/trautman/mnt/gm/datasets/wateruse/GWSWUSE/WFDbcWFDEI_GPCC_1901to2016
+Land cover data directory: 
+------------------------------------------------
+Values from file TIME.DAT
+Start year of calculations: 1901
+End year of simulation: 2016
+Start year of evaluation: 1901
+Number of initialisation years: 5
+Time step: 1
+------------------------------------------------
+Values from file OPTIONS.DAT
+1. Indicator for endian type of binary input files    : 2
+2. Indicator for waterbasins to be simulated    : 1
+3. Indicator for storage of grid files    : 4
+4. Indicator for type of storage/reservoir volumes    : 1
+5. Indicator for storage of additional daily values    : 0
+6. Indicator for calculation of time series    : 0
+7. Indicator for the use of radiation input type    : 1
+8. Indicator for interception    : 1
+9. Calculate variation in albedo    : 0
+10. Equation for potential evapotranspiration (PET)    : 0
+11. Consider crop coefficients (Kc) for estimation of potential evapotransporation (PET)    : 0
+12. Calculations with variable land cover    : 0
+13. Preparation of routing files    : 0
+14. Check routing time step    : 0
+15. Calculate variable flow velocity    : 2
+16. Indicator for subtraction of water use from river and lake storages    : 2
+17. Indicator for allocation of water use    : 1
+18. Allow delayed satisfaction of water use from surface water    : 1
+19. Calculate arid/humid areas    : 0
+20. Calculate areal extend of permafrost    : 0
+21. New reservoir algorithm    : 1
+22. Station correction status    : 1
+23. Additional groundwater recharge below surface water bodies in arid / semi-arid regions    : 1
+24. Modified routing of groundwater outflow and fast runoff    : 1
+25. Allow evaporation from rivers    : 0
+26. Take into account NUS of riparian cells    : 1
+27. Climate land mask status    : 0
+28. Reservoir operation start year status    : 1
+29. Reservoir operation reference year: 2000
+30. Reservoir operation first year to use: 1901
+31. Reservoir operation last year to use: 2012
+32. Anthropogenic / naturalized status    : 0
+------------------------------------------------
+Values from file OUTPUT_OPTIONS.DAT
+monthly binary files 
+G_PRECIPITATION_[YEAR].12.UNF0   : 1
+G_AET_[YEAR].12.UNF0   : 0
+G_CELL_AET_[YEAR].12.UNF0/G_LAND_AET_[YEAR].12.UNF0   : 0
+G_CELL_RUNOFF_[YEAR].12.UNF0   : 0
+G_POT_CELL_RUNOFF_[YEAR].UNF0   : 0
+G_CELL_SURFACE_RUNOFF_[YEAR].12.UNF0-> cell surface runoff (incl. l/w)   : 0
+G_RUNOFF_[YEAR].12.UNF0   : 0
+G_URBAN_RUNOFF_[YEAR].12.UNF0   : 0
+G_SURFACE_RUNOFF_[YEAR].12.UNF0   : 0
+G_GW_RUNOFF_[YEAR].12.UNF0   : 0
+G_GW_RECHARGE_[YEAR].12.UNF0   : 0
+all single water storages [km3]   : 1
+G_MIN_RIVER_AVAIL_[YEAR].12.UNF0/G_MAX_RIVER_AVAIL_[YEAR].12.UNF0   : 0
+G_SOIL_WATER_[YEAR].12.UNF0   : 0
+G_LAI_[YEAR].12.UNF0   : 0
+G_ALBEDO_[YEAR].12.UNF0   : 0
+G_INTERCEPTION_[YEAR].12.UNF0   : 0
+G_CANOPY_WATER_[YEAR].12.UNF0   : 0
+G_MAX_CANOPY_WATER_[YEAR].12.UNF0   : 0
+short wave rad components   : 0
+long wave rad components   : 0
+G_NET_RADIATION_[YEAR].12.UNF0   : 0
+G_OPEN_WATER_PET_[YEAR].12.UNF0   : 0
+G_OPEN_WATER_EVAP_[YEAR].12.UNF0   : 0
+G_PET_[YEAR].12.UNF0   : 0
+G_TOTAL_PET_[YEAR].12.UNF0   : 1
+G_RIVER_AVAIL_[YEAR].12.UNF0   : 1
+G_RIVER_IN_UPSTREAM_[YEAR].12.UNF0   : 1
+G_RIVER_VELOCITY_[YEAR].12.UNF0   : 0
+G_SNOW_COVER_FRAC[YEAR].12.UNF0   : 0
+G_SNOW_WATER_EQUIV[YEAR].12.UNF0   : 0
+G_SNOW_FALL_[YEAR].12.UNF0   : 0
+G_SNOW_MELT_[YEAR].12.UNF0   : 0
+G_SNOW_EVAP_[YEAR].12.UNF0   : 0
+G_SURFACE_WATER_STORAGE_[YEAR].12.UNF0   : 0
+G_LOC_LAKE_STOR_km3_[YEAR].12.UNF0   : 0
+G_LOC_WETL_STOR_km3_[YEAR].12.UNF0   : 0
+G_GLO_LAKE_STORAGE_km3_[YEAR].12.UNF0   : 0
+G_GLO_WETL_STORAGE_km3_[YEAR].12.UNF0   : 0
+G_RES_STORAGE_km3_[YEAR].12.UNF0   : 0
+G_RIVER_STORAGE_km3_[YEAR].12.UNF0   : 0
+G_TOTAL_STORAGES_km3[YEAR].12.UNF0   : 0
+G_TOTAL_STORAGES_mm_[YEAR].12.UNF0   : 0
+G_ACTUAL_NAS_[YEAR].12.UNF0   : 1
+G_ACTUAL_NAG_[YEAR].12.UNF0   : 0
+G_ALLOC_USE_IN_2NDCELL_[YEAR].12.UNF0   : 0
+G_SATIS_ALLOC_USE_IN_2NDCELL_[YEAR].12.UNF0   : 0
+G_CONS_WATER_USE_[YEAR].UNF0   : 0
+G_UNSAT_USE_SW_[YEAR].UNF0   : 0
+G_UNSAT_USE_SW_PREV_[YEAR].UNF0   : 0
+G_GWR_SURFACE_WATER_BODIES_mm_[YEAR].12.UNF0   : 0
+G_FRACTION_SURFACE_WATER_BODIES_[YEAR].12.UNF0   : 0
+G_LAND_AREA_FRACTION_[YEAR].12.UNF0   : 0
+G_TEMPERATURE_[YEAR].12.UNF0   : 0
+G_SUNSHINE_km3_[YEAR].12.UNF0   : 0
+G_ACTUAL_WATER_CONSUMPTION_[YEAR].12.UNF0   : 1
+G_ACTUAL_WATER_CONSUMPTION_INCELLUSED_[YEAR].12.UNF0   : 0
+G_CELLAET_CONSUSE_km3_[YEAR].12.UNF0   : 1
+G_LOC_WETL_EXTENT_km2_[YEAR].12.UNF0   : 0
+G_GLO_WETL_EXTENT_km2_[YEAR].12.UNF0   : 0
+G_TOTAL_GW_RECHARGE_[YEAR].12.UNF0   : 0
+G_GWRUN_SURFRUN_km3_[YEAR].12.UNF0	: 0
+daily binary files 
+G_PRECIPITATION_[YEAR]*.UNF0   : 0
+G_CELL_AET_[YEAR]*.UNF0   : 0
+G_CELL_RUNOFF_[YEAR]*.UNF0   : 0
+G_CELL_SURFACE_RUNOFF_[YEAR]*.UNF0   : 0
+G_SURFACE_RUNOFF_[YEAR]*.UNF0   : 0
+G_GW_RUNOFF_[YEAR]*.UNF0   : 0
+G_GW_RECHARGE_[YEAR]*.UNF0   : 0
+G_GW_STORAGE_[YEAR]*.UNF0   : 0
+G_SOIL_WATER_[YEAR]*.UNF0   : 0
+G_LAI_[YEAR]*.UNF0/G_KC_[YEAR]*.UNF0   : 0
+G_ALBEDO_[YEAR]*.UNF0   : 0
+G_INTERCEPTION_[YEAR]*.UNF0   : 0
+G_CANOPY_WATER_[YEAR]*.UNF0   : 0
+G_MAX_CANOPY_WATER_[YEAR]*.UNF0   : 0
+G_PET_[YEAR]*.UNF0   : 0
+G_TOTAL_PET_[YEAR]*.UNF0   : 0
+G_RIVER_AVAIL_[YEAR]*.UNF0   : 0
+G_RIVER_VELOCITY_[YEAR]*.UNF0   : 0
+G_SNOW_COVER_FRAC[YEAR]*.UNF0   : 0
+G_SNOW_WATER_EQUIV[YEAR]*.UNF0   : 0
+G_SNOW_FALL_[YEAR]*.UNF0   : 0
+G_SNOW_MELT_[YEAR]*.UNF0   : 0
+G_SURFACE_WATER_STORAGE_[YEAR]*.UNF0   : 0
+all single daily water storages [km3]   : 0
+G_TOTAL_STORAGE_km3_[YEAR]*.UNF0   : 0
+G_TOTAL_STORAGE_mm_[YEAR]*.UNF0   : 0
+G_TOTAL_STORAGE_STARTEND_km3_[YEAR].2.UNF0   : 1
+G_EXT_RAD_[YEAR]*.UNF0   : 0
+G_SHORTWAVE_DOWN_RAD_[YEAR]*.UNF0   : 0
+G_SHORTWAVE_UP_RAD_[YEAR]*.UNF0   : 0
+G_NET_SHORTWAVE_RAD_[YEAR]*.UNF0   : 0
+G_LONGWAVE_DOWN_RAD_[YEAR]*.UNF0   : 0
+G_LONGWAVE_UP_RAD_[YEAR]*.UNF0   : 0
+G_NET_LONGWAVE_RAD_[YEAR]*.UNF0   : 0
+G_NET_RADIATION_[YEAR]*.UNF0   : 0
+G_GWR_SURFACE_WATER_BODIES_mm_[YEAR]*.UNF0	: 0
+G_FRACTION_SURFACE_WATER_BODIES_[YEAR]*.UNF0	: 0
+G_LAND_AREA_FRACTION_[YEAR]*.UNF0	: 0
+G_GWRUN_SURFRUN_[YEAR]*.UNF0	: 0
+G_CELLAET_CONSUSE_[YEAR]*.UNF0	: 0
+additional binary files 
+G_GW_FACTOR.UNF0   : 0
+G_RG_max.UNF2   : 0
+G_Smax.UNF0   : 0
+G_RootDepth.UNF0   : 0
+G_KOEPPEN.UNF2   : 0
+G_LAI_MAX.UNF0/G_LAI_MIN.UNF0   : 0
+G_AIRFROST_[YEAR].UNF0   : 0
+G_SURFACEFROST_[YEAR].UNF0   : 0
+G_RH_[YEAR].UNF0   : 0
+ASCII files
+ALL_UPSTREAM_STATIONS.DAT, NO_ALL_UPSTREAM_STATIONS.DAT   : 0
+DIRECT_UPSTREAM_STATIONS.DAT, NO_DIRECT_UPSTREAM_STATIONS.DAT   : 0
+RAIN_DAYS[XX].DAT (RAIN_DAYS28.DAT, RAIN_DAYS30.DAT, RAIN_DAYS31.DAT)   : 0
+STATION_DISCHARGE_ANNUAL.DAT   : 0
+STATION_DISCHARGE_MONTHLY.DAT   : 0
+STATION_LIST.OUT (not yet implemented -> will be written in any case!)   : 0
+SUPERBASIN_CLIMATE.[YEAR].OUT  (2015-10 obsolete, not written) : 0
+RESERVOIR_INFLOW_MONTHLY.OUT, RESERVOIR_OUTFLOW_MONTHLY.OUT   : 0
+additional ASCII files (option: save daily values)
+DAILY_VALUES_[YEAR].XXX   : 0
+DAILY_INTERCEPTION.XXX   : 0
+STATION_DISCHARGE_DAILY.OUT   : 0
+STATION_VELOCITY_DAILY.OUT   : 0
+LOC_LAKE_STORAGE.OUT   : 0
+GLO_LAKE_STORAGE.OUT   : 0
+LOC_WETL_STORAGE.OUT   : 0
+GLO_WETL_STORAGE.OUT   : 0
+RESERVOIR_STORAGE.OUT   : 0
+------------------------------------------------
+End of MODEL_SETTINGS.OUT
