@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+geopandas
+xarray
+cytoolz
+dask
+cartopy
